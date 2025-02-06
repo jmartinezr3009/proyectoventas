@@ -15,9 +15,9 @@ import java.sql.SQLException;
 
 public class Conexion {
     Connection con;
-    String url="jdbc:mysql://localhost:3307/bd_ventas";
+    String url="jdbc:mysql://localhost:3306/bd_ventas";
     String user="root";
-    String pass="Jers120506*";
+    String pass="123456";
     public Connection Conexion() throws SQLException{
         try{
             Class.forName("com.mysql.jdbc.Driver");

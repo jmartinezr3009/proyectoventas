@@ -13,7 +13,7 @@ public class Venta {
     String Numserie;
     String DescripcionP;
     String fecha;
-    String precio; 
+    Double precio; 
     Integer cantidad; 
     Double subtotal; 
     Double monto;
@@ -23,7 +23,7 @@ public class Venta {
         
     }
 
-    public Venta(Integer id, Integer item, Integer idcliente, Integer idempleado, Integer idproducto, String Numserie, String DescripcionP, String fecha, String precio, Integer cantidad, Double subtotal, Double monto, String estado) {
+    public Venta(Integer id, Integer item, Integer idcliente, Integer idempleado, Integer idproducto, String Numserie, String DescripcionP, String fecha, Double precio, Integer cantidad, Double subtotal, Double monto, String estado) {
         this.id = id;
         this.item = item;
         this.idcliente = idcliente;
@@ -103,11 +103,11 @@ public class Venta {
         this.fecha = fecha;
     }
 
-    public String getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(String precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
 

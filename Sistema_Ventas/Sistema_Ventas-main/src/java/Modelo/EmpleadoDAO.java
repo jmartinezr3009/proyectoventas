@@ -4,10 +4,6 @@
  */
 package Modelo;
 
-/**
- *
- * @author ALEDA
- */
 
 import config.Conexion;
 import java.sql.Connection;
